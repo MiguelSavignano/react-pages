@@ -1,0 +1,19 @@
+{
+  "name": "react-pages",
+  "version": "0.1.0",
+  "description": "Simple lib for help render components in a dom node with own props; alternative to build routes.",
+  "main": "react-pages.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "react",
+    "page",
+    "react",
+    "view",
+    "react-render",
+    "routes"
+  ],
+  "author": "migue.masx@gmail.com",
+  "license": "ISC"
+}
