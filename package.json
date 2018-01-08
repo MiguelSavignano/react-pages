@@ -1,5 +1,5 @@
 {
-  "name": "@react-pages",
+  "name": "react-render-pages",
   "version": "0.1.0",
   "description": "Simple lib for help render components in a dom node with own props; alternative to build routes.",
   "main": "react-pages.js",
