@@ -73,5 +73,6 @@ ReactDOMRender("example-domId", Example)
 ### TODO
 - [ ] add more examples
 - [ ] pass context to react page
+- [ ] test with server render
 - [ ] use the same component name for render in dom?
 - [ ] help to make layouts?
