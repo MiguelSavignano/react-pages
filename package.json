@@ -1,6 +1,6 @@
 {
   "name": "react-render-pages",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple lib for help render components in a dom node with own props; alternative to build routes.",
   "main": "react-pages.js",
   "scripts": {
