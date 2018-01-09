@@ -32,7 +32,6 @@ This snippet help to render the component only if the dom node exists and use th
   </body>
   <script src="bundle.js"></script>
 </html>
-"{"example":"data"}"
 ```
 
 ### renderIn
