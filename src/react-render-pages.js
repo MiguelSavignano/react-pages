@@ -35,6 +35,7 @@ function render(dom_id) {
 
 function renderIn(dom_id, Component) {
   ReactDOMRender(dom_id, Component)
+  return Component
 }
 
 export { ReactDOMRender, render, renderIn }

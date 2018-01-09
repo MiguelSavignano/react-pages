@@ -67,6 +67,9 @@ class Example extends React.Component {
 ReactDOMRender("example-domId", Example)
 ```
 
+# Example
+(basic example)[doc/basic_example.md]
+
 ### TODO
 - [ ] add more examples
 - [ ] pass context to react page
