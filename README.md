@@ -20,9 +20,20 @@ If you want render your component like a page you need to write something like.
   })
 ```
 
-This snippet help to render the component only if the dom node exists and use the data attribute to to pass props to the component
+This snippet help to render the component only if the dom node exists and use the data attribute to pass props to the component
 
 ## Usage
+## Example html
+
+```html
+<html>
+  <body>
+    <div id="example-domId" data="{"example":"data"}"></div>
+  </body>
+  <script src="bundle.js"></script>
+</html>
+"{"example":"data"}"
+```
 
 ### renderIn
 
