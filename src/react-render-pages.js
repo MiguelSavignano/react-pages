@@ -12,7 +12,7 @@ const ReactDOMRender = (dom_id, Component) => {
     const element = document.getElementById(dom_id)
     if (!element) return false
     const props = JSON.parse(element.dataset.props) || {}
-    ReactDOM.render(<Component {...props} />, element)
+    ReactDOM.render(React.createElement(Component, props, null), element)
   })
 }
 
