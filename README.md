@@ -9,7 +9,7 @@ npm install react-render-pages --save
 
 ## How work
 
-If you want render your component like a page you need to write something like.
+If you want render your component like a page you need to write something like this.
 
 ```js
   document.addEventListener('DOMContentLoaded', () => {
@@ -68,7 +68,7 @@ ReactDOMRender("example-domId", Example)
 ```
 
 # Example
-(basic example)[doc/basic_example.md]
+[basic example](doc/basic_example.md)
 
 ### TODO
 - [ ] add more examples

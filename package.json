@@ -2,6 +2,7 @@
   "name": "react-render-pages",
   "version": "0.1.2",
   "description": "Simple lib for help render components in a dom node with own props; alternative to build routes.",
+  "repository": "https://github.com/MiguelSavignano/react-render-pages",
   "main": "react-pages.js",
   "scripts": {
     "test": ""
