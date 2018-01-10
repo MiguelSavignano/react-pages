@@ -15,12 +15,14 @@ If you want render your component like a page you need to write something like t
   document.addEventListener('DOMContentLoaded', () => {
     const element = document.getElementById(domId)
     if (!element) return false
-    const props = JSON.parse(element.getAttribute('data')) || {}
+    const props = JSON.parse(element.dataset.props) || {}
     ReactDOM.render(<HomeView {...props} />, element)
   })
 ```
 
-This snippet help to render the component only if the dom node exists and use the data attribute to pass props to the component
+This snippet help to render the component only if the dom node exists and use the data attribute to pass props to the component.
+
+If your app it not a single page application, this package help you to use the same function for render react components like a page
 
 ## Usage
 ## Example html
@@ -28,7 +30,7 @@ This snippet help to render the component only if the dom node exists and use th
 ```html
 <html>
   <body>
-    <div id="example-domId" data="{"example":"data"}"></div>
+    <div id="example-domId" data-props='{"example":"data"}'></div>
   </body>
   <script src="bundle.js"></script>
 </html>

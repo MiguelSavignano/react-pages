@@ -17,7 +17,7 @@ js
 ```html
 <html>
   <body>
-    <div id="home" data="{"company_name":"My Awesome Company"}"></div>
+    <div id="home" data-props='{"company_name":"My Awesome Company"}'></div>
   </body>
   <script src="bundle.js"></script>
 </html>
@@ -36,7 +36,7 @@ const HomePage = renderIn("home", (props) => (
 ```html
 <html>
   <body>
-    <div id="contact-us" data="{"company_phone":"12345678"}"></div>
+    <div id="contact-us" data-props='{"company_phone":"12345678"}'></div>
   </body>
   <script src="bundle.js"></script>
 </html>
