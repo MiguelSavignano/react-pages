@@ -11,7 +11,7 @@ const ReactDOMRender = (dom_id, Component) => {
   document.addEventListener('DOMContentLoaded', () => {
     const element = document.getElementById(dom_id)
     if (!element) return false
-    const props = JSON.parse(element.getAttribute('data')) || {}
+    const props = JSON.parse(element.dataset.props) || {}
     ReactDOM.render(<Component {...props} />, element)
   })
 }
@@ -22,7 +22,7 @@ const ReactDOMRender = (dom_id, Component) => {
 //   render() { return <h1>This component render in "#example-domId"</h1>}
 // }
 
-function render(dom_id) {
+const render = (dom_id) => {
   return (target, property, descriptor) => {
     ReactDOMRender(dom_id, target)
   }
@@ -33,7 +33,7 @@ function render(dom_id) {
 //   <h1>This component render in "#example-domId"</h1>
 // ))
 
-function renderIn(dom_id, Component) {
+const renderIn = (dom_id, Component) => {
   ReactDOMRender(dom_id, Component)
   return Component
 }
