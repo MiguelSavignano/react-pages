@@ -6,7 +6,6 @@ import ReactDOM from 'react-dom'
 //   render() { return <h1>This component render in "#example-domId"</h1>}
 // }
 // ReactDOMRender("example-domId", Example)
-
 const ReactDOMRender = (dom_id, Component) => {
   document.addEventListener('DOMContentLoaded', () => {
     const element = document.getElementById(dom_id)

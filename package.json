@@ -5,6 +5,7 @@
   "repository": "https://github.com/MiguelSavignano/react-render-pages",
   "main": "react-pages.js",
   "scripts": {
+    "build": "babel src/react-render-pages.js --out-file lib/react-render-pages.js",
     "test": ""
   },
   "keywords": [
@@ -20,5 +21,10 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
 }
