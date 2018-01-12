@@ -1,1 +1,1 @@
-module.exports = require('./src/react-render-pages');
+module.exports = require('./lib/react-render-pages');
