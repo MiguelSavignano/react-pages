@@ -2,6 +2,8 @@
 
 Simple lib for help render components in a dom node with own props; alternative to build routes.
 
+If your app it not a single page application, this package help you to use the same function for render react components like a page
+
 ## Installation
 ```sh
 npm install react-render-pages --save
@@ -21,8 +23,6 @@ If you want render your component like a page you need to write something like t
 ```
 
 This snippet help to render the component only if the dom node exists and use the data attribute to pass props to the component.
-
-If your app it not a single page application, this package help you to use the same function for render react components like a page
 
 ## Usage
 ## Example html
