@@ -1,3 +1,14 @@
+
+configureBack() {
+    back_image_version="7.1"
+    read -p "[?] ¿Qué version de php necesitas?: [$back_image_version] " back_image_version
+
+    back_template=$( cat images/back/Dockerfile )
+    back_service=${back_template/\#\#BACK_DOCKER_IMAGE\#\#/$back_image_version}
+    mkdir ./docker/development/back
+    echo $back_service >> ./docker/development/back/Dockerfile
+}
+
 # React render pages
 
 Simple lib for help render components in a dom node with own props; alternative to build routes.
